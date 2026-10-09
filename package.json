@@ -7,6 +7,8 @@
   "private": true,
   "dependencies": {
     "@remotion/cli": "4.0.534",
+    "@remotion/google-fonts": "^4.0.534",
+    "@remotion/transitions": "^4.0.534",
     "react": "19.2.3",
     "react-dom": "19.2.3",
     "remotion": "4.0.534"
@@ -24,5 +26,8 @@
     "build": "remotion bundle",
     "upgrade": "remotion upgrade",
     "lint": "eslint src && tsc"
+  },
+  "allowScripts": {
+    "esbuild@0.28.1": true
   }
 }
